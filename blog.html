@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Title of the document</title>
+		<link href="css/blog.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div id="wrapper">
+			<div class="icon">
+				<a href="">
+					<img src="images/soldier.png" alt="icon" class="img" />
+				</a>
+			</div>
+			<div class="icon icon1">
+				<a href="">
+					<img src="images/resume.png" alt="icon" class="img1" />
+				</a>
+			</div>
+			<form id="paper" method="get" action="">
+				<div id="margin" class="color1">
+					Title: <input id="title" type="text" name="title" />
+				</div>
+				<textarea
+					placeholder="write your story here...."
+					id="text"
+					name="text"
+					rows="4"
+					style="
+						overflow: hidden;
+						word-wrap: break-word;
+						resize: none;
+						height: 160px;
+					"
+				></textarea>
+				<br />
+				<input id="button" type="submit" value="Create" />
+			</form>
+		</div>
+		<script type="text/javascript" src="blog.js"></script>
+	</body>
+</html>
